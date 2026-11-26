@@ -1,5 +1,6 @@
 from sqlmodel import SQLModel, Session, create_engine
 from models.meters import Meter  # <--- Изменили здесь
+from models.users import User
 
 database_file = "askue.db" # Переименовали файл базы
 database_connection_string = f"sqlite:///{database_file}"
