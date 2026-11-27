@@ -1,0 +1,18 @@
+cd ~/PRAKTIKI_ST_RUSKIK-lab3-askue-microservices
+
+ Сайт: http://localhost:8080
+
+ Swagger (Счётчики): http://localhost:8001/docs
+
+ Swagger (Показания): http://localhost:8002/docs
+
+
+assets-service (Python/FastAPI) — управление объектами и счётчиками.
+
+readings-service (Python/FastAPI) — сбор показаний и контроль аномалий.
+
+frontend (HTML/JS/Tailwind) — пользовательский интерфейс и визуализация графиков (Chart.js).
+EOF
+
+docker-compose up --build
+
